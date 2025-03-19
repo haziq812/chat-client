@@ -4,7 +4,7 @@ import { io } from 'socket.io-client';
 import axios from 'axios';
 import 'bootstrap/dist/css/bootstrap.min.css';
 
-const socket = io('http://localhost:3000');
+const socket = io('http://localhost:3001');
 
 const Chat = ({ token }) => {
   const [messages, setMessages] = useState([]);
