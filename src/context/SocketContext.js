@@ -2,7 +2,7 @@ import { createContext, useContext, useEffect, useState } from "react";
 import { io } from "socket.io-client";
 
 // Connect to WebSocket server
-const SOCKET_SERVER_URL = "http://localhost:3001";
+const SOCKET_SERVER_URL = "http://146.190.103.177:3001";
 const SocketContext = createContext();
 
 export const SocketProvider = ({ children }) => {
