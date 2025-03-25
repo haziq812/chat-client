@@ -23,7 +23,7 @@ const Register = () => {
     }
 
     try {
-      const response = await axios.post('http://api.nuansaco.com/api/register', {
+      const response = await axios.post('https://nuansaco-api.com/api/register', {
         name,
         email,
         password,
